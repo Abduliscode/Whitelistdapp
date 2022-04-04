@@ -1,5 +1,3 @@
-const { network } = require("hardhat");
-
 require("@nomiclabs/hardhat-waffle");
 require("dotenv").config({path: ".env"});
 
@@ -11,7 +9,7 @@ module.exports = {
   networks: {
     ropsten: {
       url: ALCHEMY_API_KEY_URL,
-      
+
       accounts: [ROPSTEN_PRIVATE_KEY],
 
     },
