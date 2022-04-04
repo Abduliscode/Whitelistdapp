@@ -8,7 +8,7 @@ async function main() {
 
     await deployedWhitelistContract.deployed();
 
-    conslog.log("Whitelist Contract Address", deployedWhitelistContract.address);
+    console.log("Whitelist Contract Address", deployedWhitelistContract.address);
 
 }
 
