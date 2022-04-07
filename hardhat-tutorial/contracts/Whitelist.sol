@@ -1,4 +1,4 @@
-//SPDX-License-Identifier: MIT
+//SPDX-License-Identifier: Unlicense
 
 pragma solidity ^0.8.0;
 
@@ -13,8 +13,9 @@ contract Whitelist {
     uint8 public numAddressesWhitelisted;
 
     mapping(address => bool) public whitelistedAddresses;
+    
 
-    constructor(uint8 _maxWhitelistAddresses) {
+    constructor (uint8 _maxWhitelistAddresses) {
         maxWhitelistAddresses = _maxWhitelistAddresses;
 
     }
